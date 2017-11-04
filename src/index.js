@@ -5,4 +5,4 @@ const App = function() {
   return <div> hi! </div>;
 }
 // Take this component's generated HTML and put it  on the page
-ReactDom.render(<App />);
+ReactDom.render(<App />,document.querySelector('.container'));
